@@ -3,8 +3,6 @@ import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '../styles/Home.module.css';
 
-const inter = Inter({ subsets: ['latin'] });
-
 export default function Home() {
 	return (
 		<>
@@ -15,7 +13,13 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div>
-				<h1>Hello World!</h1>
+				<h1>Vision Verse Soundz</h1>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
+					impedit, incidunt doloribus distinctio nostrum ea vitae tenetur natus iure
+					dignissimos animi aspernatur blanditiis cum atque quas ipsam facere
+					necessitatibus illum.
+				</p>
 			</div>
 		</>
 	);
