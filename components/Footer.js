@@ -3,7 +3,7 @@ const Footer = () => {
 	const year = d.getFullYear();
 	return (
 		<footer>
-			<small>&copy; {year} Vision Verse Soundz.</small>{' '}
+			<small>&copy; {year} Vision Verse Soundz</small>{' '}
 		</footer>
 	);
 };
