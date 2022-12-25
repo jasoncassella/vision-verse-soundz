@@ -56,6 +56,23 @@ nav #logo {
   margin-right: auto;
 }
 
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 0.2em 0.5em;
+  }
+  nav a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    padding: 0.2em 0em;
+  }
+  nav a {
+    font-size: 0.9rem;
+  }
+}
 footer {
   display: block;
   text-align: center;
