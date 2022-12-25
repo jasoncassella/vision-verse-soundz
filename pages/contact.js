@@ -8,11 +8,11 @@ const Contact = () => {
 			</Head>
 			<h1 className='title'>Contact</h1>
 			<p className='text'>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error praesentium
-				perferendis officia maxime! Placeat repudiandae reiciendis molestiae ipsa
-				autem ut ipsum rerum nostrum. Molestias aliquam commodi, voluptatum, hic, eum
-				dicta iusto adipisci deserunt saepe velit est eos nostrum delectus nobis? At
-				quaerat adipisci suscipit enim maxime reiciendis sunt facere et?
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis,
+				voluptatum excepturi quam voluptatem itaque ratione unde sit dolores amet,
+				odit doloribus ipsum porro enim? Tenetur commodi unde vitae maxime veritatis
+				quas eveniet cum velit quaerat corporis eos optio excepturi eius nobis
+				exercitationem fuga, corrupti libero voluptatibus quidem omnis. Itaque.
 			</p>
 		</>
 	);
