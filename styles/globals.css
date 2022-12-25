@@ -73,3 +73,14 @@ footer {
   color: #4979ff;
   text-decoration: underline;
 }
+
+.title {
+  color: rgb(219, 228, 232);
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+.text {
+  color: rgb(200, 200, 200);
+}
