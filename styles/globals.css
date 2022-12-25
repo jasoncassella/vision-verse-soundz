@@ -27,6 +27,7 @@ img {
 
 .content {
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 nav {
@@ -35,7 +36,7 @@ nav {
   justify-content: flex-end;
   margin: 10px auto 80px;
   padding: 0.2em 0.8em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(50, 50, 50);
 }
 
 nav a {
@@ -60,8 +61,8 @@ footer {
   text-align: center;
   padding: 30px 0;
   margin-top: 60px;
-  color: #777;
-  border-top: 1px solid #eaeaea;
+  color: rgb(100, 100, 100);
+  border-bottom: 1px solid rgb(50, 50, 50);
 }
 
 .not-found {
