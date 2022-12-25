@@ -1,15 +1,27 @@
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
+import data from '../../data';
+import Link from 'next/link';
 
 const Artists = () => {
 	return (
-		<>
+		<section className='artists'>
 			<Head>
 				<title>VVS | Artists</title>
 			</Head>
-			<h1 className='title'>Artists</h1>
-			<p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, quo voluptate. Dolore at doloremque porro molestias laudantium modi incidunt quas corrupti maxime nobis dolorem voluptate minima est, nostrum tempore, quis pariatur sed dolor ab fugiat odit. Animi blanditiis quasi cupiditate quidem officia impedit incidunt magnam asperiores beatae nesciunt debitis rem nobis placeat ipsum voluptatibus libero, aut minima commodi ex odit consequuntur vel?</p>
-		</>
+			<h1>
+				<Link href='#'>Lav.Lew</Link>
+			</h1>
+			<h1>
+				<Link href='#'>Shan.X</Link>
+			</h1>
+			<h1>
+				<Link href='#'>Noso10</Link>
+			</h1>
+			<h1>
+				<Link href='#'>Cay Slatt</Link>
+			</h1>
+		</section>
 	);
 };
 

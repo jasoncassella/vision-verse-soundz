@@ -61,6 +61,7 @@ nav #logo {
   nav {
     padding: 0.2em 0.5em;
   }
+
   nav a {
     font-size: 1rem;
   }
@@ -70,10 +71,12 @@ nav #logo {
   nav {
     padding: 0.2em 0em;
   }
+
   nav a {
     font-size: 0.9rem;
   }
 }
+
 footer {
   display: block;
   text-align: center;
@@ -102,4 +105,17 @@ footer {
 .text {
   color: rgb(200, 200, 200);
   padding: 0 2.8rem;
+}
+
+section {
+  padding: 5rem 0rem;
+}
+
+.artists a {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.artists a:hover {
+  color: rgb(153, 194, 210);
 }
