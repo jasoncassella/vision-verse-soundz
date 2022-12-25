@@ -7,7 +7,7 @@ const Releases = () => {
 				<title>VVS | Releases</title>
 			</Head>
 			<h1 className='title'>Releases</h1>
-			<p className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente consectetur ab natus, dolores praesentium recusandae placeat incidunt porro magnam. Earum aliquid accusantium delectus in corrupti cupiditate praesentium iusto at vero vel! Sed id, laudantium ab minus repellat, consequuntur cum mollitia velit perspiciatis ratione omnis odio culpa esse quia hic. Sunt.</p>
+			<p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum asperiores veritatis inventore quibusdam placeat. Debitis odio error molestias deserunt voluptates fugiat, omnis aliquam nobis magni repudiandae quisquam assumenda nisi pariatur labore aut eligendi possimus eaque ducimus culpa porro delectus ipsam sed rem. Tempore numquam animi fuga deleniti, voluptatum alias, ducimus sed nam repellendus ipsam expedita modi officia id.</p>
 		</>
 	);
 };

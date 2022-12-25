@@ -7,13 +7,7 @@ const Contact = () => {
 				<title>VVS | Contact</title>
 			</Head>
 			<h1 className='title'>Contact</h1>
-			<p className='text'>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis,
-				voluptatum excepturi quam voluptatem itaque ratione unde sit dolores amet,
-				odit doloribus ipsum porro enim? Tenetur commodi unde vitae maxime veritatis
-				quas eveniet cum velit quaerat corporis eos optio excepturi eius nobis
-				exercitationem fuga, corrupti libero voluptatibus quidem omnis. Itaque.
-			</p>
+      <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt fugit necessitatibus consequatur et ea deleniti. Id temporibus sunt ab, neque, fugiat ipsa dolores accusantium autem natus praesentium magni assumenda commodi illo, unde maxime sed molestias? Eveniet ipsum ab vitae quasi deserunt, molestiae inventore iusto totam voluptate sequi in error temporibus vel nihil incidunt alias mollitia. Numquam aperiam reiciendis corporis expedita.</p>
 		</>
 	);
 };
