@@ -18,9 +18,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 img {
   object-fit: cover;
@@ -32,11 +29,11 @@ img {
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   margin: 10px auto 80px;
   padding: 10px 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   border-bottom: 1px solid #ddd;
 }
 
@@ -44,6 +41,11 @@ nav a {
   margin-left: 12px;
   margin-right: 5px;
 }
+
+nav a:hover {
+  color: rgb(153, 194, 210);
+}
+
 
 nav #logo {
   margin-right: auto;
