@@ -257,11 +257,19 @@ button {
     align-self: flex-end;
   }
 
+}
+
+@media screen and (max-width: 570px) {
   .contact #email {
     font-size: 1.5rem;
   }
 }
 
+@media screen and (max-width: 475px) {
+  .contact #email {
+    font-size: 1.2rem;
+  }
+}
 
 @media screen and (max-width: 400px) {
   nav {
@@ -273,7 +281,7 @@ button {
   }
 
   .contact #email {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .releases img {
