@@ -69,35 +69,6 @@ nav #logo {
 
 }
 
-@media screen and (max-width: 500px) {
-  nav {
-    padding: 0.2em 0.5em;
-  }
-
-  nav a {
-    font-size: 1rem;
-  }
-
-  footer .container {
-    flex-direction: column;
-    margin: 0 2rem;
-  }
-
-  footer .container div {
-    align-self: flex-end;
-  }
-
-}
-
-@media screen and (max-width: 400px) {
-  nav {
-    padding: 0.2em 0em;
-  }
-
-  nav a {
-    font-size: 0.9rem;
-  }
-}
 
 small {
   display: block;
@@ -197,8 +168,49 @@ form button {
   color: #999999;
 }
 
-.contact #email,
+.contact #email {
+  text-align: center;
+  font-size: 2rem;
+}
+
 .contact #phone {
   text-align: center;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    padding: 0.2em 0.5em;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  footer .container div {
+    align-self: flex-end;
+  }
+
+  .contact #email {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    padding: 0.2em 0em;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  .contact #email {
+    font-size: 1.2rem;
+  }
 }
