@@ -5,7 +5,7 @@ const nextConfig = {
 		remotePatterns: [
 			{
 				protocol: 'https',
-				hostname: 'is3-ssl.mzstatic.com',
+				hostname: 'is1-ssl.mzstatic.com',
 				port: '',
 				pathname: '/image/**',
 			},
@@ -17,13 +17,19 @@ const nextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'is5-ssl.mzstatic.com',
+				hostname: 'is3-ssl.mzstatic.com',
 				port: '',
 				pathname: '/image/**',
 			},
 			{
 				protocol: 'https',
-				hostname: 'is1-ssl.mzstatic.com',
+				hostname: 'is4-ssl.mzstatic.com',
+				port: '',
+				pathname: '/image/**',
+			},
+			{
+				protocol: 'https',
+				hostname: 'is5-ssl.mzstatic.com',
 				port: '',
 				pathname: '/image/**',
 			},
