@@ -260,13 +260,15 @@ button {
 }
 
 @media screen and (max-width: 570px) {
-  .contact #email {
+  .contact #email, 
+  .contact #phone {
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 475px) {
-  .contact #email {
+  .contact #email,
+  .contact #phone {
     font-size: 1.2rem;
   }
 }
@@ -280,7 +282,8 @@ button {
     font-size: 0.9rem;
   }
 
-  .contact #email {
+  .contact #email,
+  .contact #phone {
     font-size: 1rem;
   }
 
