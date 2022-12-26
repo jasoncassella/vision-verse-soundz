@@ -13,7 +13,7 @@ export default function Home() {
 			</Head>
 			<div>
 				<h1 className='title'>Vision Verse Soundz</h1>
-			<p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae sequi veritatis quaerat maiores neque nihil nemo voluptatibus esse accusantium necessitatibus similique dolore iure aperiam cupiditate adipisci, commodi voluptas hic! Impedit debitis nemo eius qui corrupti illo totam? Perspiciatis excepturi tenetur saepe eum ratione voluptatem nisi, assumenda minus sed deserunt quidem eaque delectus quisquam dolores natus laborum nesciunt.</p>
+			<p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati quas eum! Modi maiores repudiandae quos enim voluptatibus error, optio labore laborum reprehenderit. Magni quisquam necessitatibus aliquam delectus asperiores et.</p>
 			</div>
 		</section>
 	);

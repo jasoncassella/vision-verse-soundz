@@ -77,13 +77,14 @@ small {
   color: rgb(219, 228, 232);
   padding-bottom: 20px;
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 3rem;
 }
 
 .text {
   color: rgb(200, 200, 200);
   padding: 0 2.8rem;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .artists a {
