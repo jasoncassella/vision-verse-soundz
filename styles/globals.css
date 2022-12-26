@@ -183,7 +183,8 @@ button {
 
 @media screen and (max-width: 1010px) {
   .releases {
-    margin: 0;
+    margin: 0px;
+    padding: 5px;
   }
 
   .releases img {
@@ -192,24 +193,38 @@ button {
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 777px) {
   .releases img {
     width: 220px;
     height: 220px;
   }
 }
 
-@media screen and (max-width: 678px) {
+@media screen and (max-width: 686px) {
   .releases img {
     width: 200px;
     height: 200px;
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 630px) {
   .releases img {
     width: 180px;
     height: 180px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .releases img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .releases img {
+    width: 130px;
+    height: 130px;
   }
 }
 
