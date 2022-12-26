@@ -161,6 +161,10 @@ button {
   font-size: 2rem;
 }
 
+.contact .text {
+  text-align: center;
+}
+
 .releases {
   display: flex;
   justify-content: space-evenly;
