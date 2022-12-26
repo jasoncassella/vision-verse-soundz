@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Navbar from '../../components/Navbar';
-import data from '../../data';
 import Link from 'next/link';
 
 const Artists = () => {
