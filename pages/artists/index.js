@@ -11,7 +11,7 @@ const Artists = () => {
 			</Head>
 			{artistBios.map(artist => (
 				<h1 key={artistBios.indexOf(artist) + 1}>
-					<Link href='#'>{artist.name}</Link>
+					<Link href={`artists/${artist.url}`}>{artist.name}</Link>
 				</h1>
 			))}
 		</section>
