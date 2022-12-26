@@ -168,3 +168,16 @@ form button {
   border-radius: 0.15em;
   text-transform: uppercase;
 }
+
+.socials {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact #email,
+.contact #phone {
+  text-align: center;
+  font-size: 2rem;
+}
