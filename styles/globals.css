@@ -52,23 +52,9 @@ nav a:hover {
   color: #999999;
 }
 
-
 nav #logo {
   margin-right: auto;
 }
-
-@media screen and (max-width: 600px) {
-  footer .container {
-    flex-direction: column;
-    margin: 0 2rem;
-  }
-
-  footer .container div {
-    align-self: flex-end;
-  }
-
-}
-
 
 small {
   display: block;
@@ -176,6 +162,17 @@ form button {
 .contact #phone {
   text-align: center;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  footer .container {
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  footer .container div {
+    align-self: flex-end;
+  }
 }
 
 @media screen and (max-width: 500px) {
