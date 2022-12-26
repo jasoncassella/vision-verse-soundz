@@ -96,6 +96,7 @@ small {
   color: #999999;
 }
 
+
 footer {
   margin-top: 40px;
 }
@@ -159,7 +160,6 @@ button {
   padding: 1rem 0;
 }
 
-
 .contact .text {
   text-align: center;
   padding: 1rem 0;
@@ -175,6 +175,10 @@ button {
 
 .album a:hover {
   background: hsl(0, 0%, 30%);
+}
+
+.bio, .home {
+  max-width: 1200px;
 }
 
 .bio button {
