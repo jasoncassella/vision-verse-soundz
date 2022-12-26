@@ -32,8 +32,12 @@ const Contact = () => {
 					<FaTiktok size='2.5em' />
 				</Link>
 			</div>
-			<h1 id="email">colleen@visionversesoundz.com</h1>
-			<h1 id="phone">315-313-4370</h1>
+			<Link href='mailto:colleen@visionversesoundz.com'>
+				<h1 id="email">colleen@visionversesoundz.com</h1>
+			</Link>
+			<Link href='tel:315-313-4370'>
+				<h1 id="phone">315-313-4370</h1>
+			</Link>
 		</section>
 	);
 };
