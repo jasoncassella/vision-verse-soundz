@@ -57,6 +57,18 @@ nav #logo {
   margin-right: auto;
 }
 
+@media screen and (max-width: 600px) {
+  footer .container {
+    flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  footer .container div {
+    align-self: flex-end;
+  }
+
+}
+
 @media screen and (max-width: 500px) {
   nav {
     padding: 0.2em 0.5em;
@@ -175,8 +187,10 @@ form button {
   padding-top: 1.5rem;
   margin: auto;
   width: 50%;
+  max-width: 200;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .socials a:hover {
