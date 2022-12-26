@@ -10,7 +10,7 @@ const Artists = () => {
 				<title>VVS | Artists</title>
 			</Head>
 			{artistBios.map(artist => (
-				<h1 key={artist.id}>
+				<h1 key={artistBios.indexOf(artist) + 1}>
 					<Link href='#'>{artist.name}</Link>
 				</h1>
 			))}
