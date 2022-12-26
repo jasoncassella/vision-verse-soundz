@@ -3,6 +3,7 @@ const Footer = () => {
 	const year = d.getFullYear();
 	return (
 		<footer>
+			<h3>subscribe for updates</h3>
 			<form
 				action='https://getform.io/f/aae45edf-47a7-4f08-bd02-d86520a69b92'
 				method='POST'>

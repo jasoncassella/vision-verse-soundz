@@ -133,6 +133,10 @@ footer {
   margin-top: 40px;
 }
 
+footer h3 {
+  text-align: center;
+}
+
 form .container {
   padding: 10px 10px;
   display: flex;
