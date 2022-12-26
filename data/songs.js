@@ -2,7 +2,7 @@
 export default [
 	{
 		name: 'Pretty Price',
-    url: 'https://open.spotify.com/track/5UHOWgegt06THx5ndyBzDC?si=972d1a69d9034ee3&nd=1',
+		url: 'https://open.spotify.com/track/5UHOWgegt06THx5ndyBzDC?si=972d1a69d9034ee3&nd=1',
 		imgUrl:
 			'https://is3-ssl.mzstatic.com/image/thumb/Music122/v4/9e/d9/b8/9ed9b887-243b-ba63-21ef-4d96b8f43afc/artwork.jpg/600x600bb.jpg',
 	},
@@ -54,19 +54,49 @@ export default [
 		imgUrl:
 			'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a7/d3/6f/a7d36fb1-2c89-d4a1-8fe4-6adcca572ac2/artwork.jpg/600x600bb.jpg',
 	},
+	{
+		name: 'Lonely',
+		url: 'https://open.spotify.com/track/0lt3ZFp0w8ejIAjrGzhq8F?si=965a147a09ad4551&nd=1',
+		imgUrl:
+			'https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/c0/5f/b6/c05fb6c6-cd5d-eef7-257c-c241ae4a1b91/artwork.jpg/600x600bb.jpg',
+	},
+	{
+		name: "Fallin' Out",
+		url: 'https://open.spotify.com/track/5Ml2PEmX5X8t0qYQWYtoiY?si=fde10039f9144e77&nd=1',
+		imgUrl:
+			'https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/39/83/7e/39837eca-399f-e2cd-cf77-c4941af13534/artwork.jpg/600x600bb.jpg',
+	},
+	{
+		name: 'Read It',
+		url: 'https://open.spotify.com/track/2qpNkYGMSKO2IB88oGjnK6?si=f68d31cd607b41b5&nd=1',
+		imgUrl:
+			'https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/63/78/6e/63786e1e-b96e-d6f2-e527-e6e378d9797d/artwork.jpg/600x600bb.jpg',
+	},
+	{
+		name: 'Cashed Out',
+		url: 'https://open.spotify.com/track/6lHSdfmd8C6tNJGgFkKkks?si=cc9d4603631e4350&nd=1',
+		imgUrl:
+			'https://is5-ssl.mzstatic.com/image/thumb/Music115/v4/83/b3/1e/83b31e1c-d2b2-f07d-e2cb-0ef7a3a111d3/artwork.jpg/600x600bb.jpg',
+	},
+	{
+		name: 'Amiri me',
+		url: 'https://open.spotify.com/track/6H9qodVmpDdFAY7LdUZmOx?si=c7a56b24d1144288&nd=1',
+		imgUrl:
+			'https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/b6/d5/0a/b6d50aed-3c37-08b5-42e8-9bfb64988ddb/artwork.jpg/600x600bb.jpg',
+	},
   {
-    name: 'Lonely',
-    url: 'https://open.spotify.com/track/0lt3ZFp0w8ejIAjrGzhq8F?si=965a147a09ad4551&nd=1',
-    imgUrl: 'https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/c0/5f/b6/c05fb6c6-cd5d-eef7-257c-c241ae4a1b91/artwork.jpg/600x600bb.jpg'
+    name: '2020',
+    url: 'https://open.spotify.com/track/6KGnzxdsvUNOLnmqJmMjRg?si=25ca4e71d62d4a0f&nd=1',
+    imgUrl: 'https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/40/97/fc/4097fc79-069b-7cfe-1490-939575e56686/artwork.jpg/600x600bb.jpg'
   },
   {
-    name: "Fallin' Out",
-    url: 'https://open.spotify.com/track/5Ml2PEmX5X8t0qYQWYtoiY?si=fde10039f9144e77&nd=1',
-    imgUrl: 'https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/39/83/7e/39837eca-399f-e2cd-cf77-c4941af13534/artwork.jpg/600x600bb.jpg'
+    name: 'ICE BOX',
+    url: 'https://open.spotify.com/track/3kT0N03tyuYDyHkYeJPlB1?si=ab14fd2c608c4065&nd=1',
+    imgUrl: 'https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/ec/28/fb/ec28fbe4-9377-46f0-be0d-4fd38a566695/artwork.jpg/600x600bb.jpg'
   },
   {
-    name: 'Read It',
-    url: 'https://open.spotify.com/track/2qpNkYGMSKO2IB88oGjnK6?si=f68d31cd607b41b5&nd=1',
-    imgUrl: 'https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/63/78/6e/63786e1e-b96e-d6f2-e527-e6e378d9797d/artwork.jpg/600x600bb.jpg'
+    name: 'Rusty',
+    url: 'https://open.spotify.com/track/0Hruy85RzKQlTQPp3Y0Jan?si=0183034eb8114f6d&nd=1',
+    imgUrl: 'https://is3-ssl.mzstatic.com/image/thumb/Music124/v4/41/9c/29/419c2998-0c8d-0ebe-4ca3-15d89825909d/artwork.jpg/600x600bb.jpg'
   }
 ];

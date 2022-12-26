@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Album = props => {
 	return (
 		<div className='ablum'>
-			<Link href={props.url}>
+			<Link href={props.url} target="_blank">
 				<Image src={props.imgUrl} alt={props.name} width={300} height={300} />
 			</Link>
 		</div>
