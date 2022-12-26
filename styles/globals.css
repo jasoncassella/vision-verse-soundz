@@ -163,7 +163,7 @@ form button {
 
 .releases {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 0 3rem;
   flex-wrap: wrap;
   gap: 1rem 0;
