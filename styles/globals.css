@@ -153,10 +153,11 @@ form input {
   margin: 0;
   outline: 0;
   padding: 5px;
+  color: rgb(230, 230, 230);
 }
 
 form input:focus {
-  background-color: #c0c0c0;
+  background: hsla(0, 0%, 100%, 0.4);
 }
 
 form button {
