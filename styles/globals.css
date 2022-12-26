@@ -138,6 +138,7 @@ button {
 }
 
 .socials {
+  padding: 1rem 0;
   padding-top: 1.5rem;
   margin: auto;
   width: 50%;
