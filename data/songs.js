@@ -2,7 +2,7 @@
 export default [
 	{
 		name: 'Pretty Price',
-		url: 'https://open.spotify.com/track/5UHOWgegt06THx5ndyBzDC?si=972d1a69d9034ee3&nd=1',
+    url: 'https://open.spotify.com/track/5UHOWgegt06THx5ndyBzDC?si=972d1a69d9034ee3&nd=1',
 		imgUrl:
 			'https://is3-ssl.mzstatic.com/image/thumb/Music122/v4/9e/d9/b8/9ed9b887-243b-ba63-21ef-4d96b8f43afc/artwork.jpg/600x600bb.jpg',
 	},
