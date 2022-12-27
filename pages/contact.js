@@ -8,7 +8,7 @@ const Contact = () => {
 			<Head>
 				<title>VVS | Contact</title>
 			</Head>
-			<h1 className='title'>Contact</h1>
+				<h1 className='text-5xl font-bold text-center my-10'>Contact</h1>
 			<p className='text'>
 				Work with us! VVS is always looking to collaborate with new producers,
 				beat-makers, audio engineers, graphic designers, photographers,

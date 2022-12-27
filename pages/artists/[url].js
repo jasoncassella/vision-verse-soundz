@@ -29,11 +29,13 @@ const Bio = ({ artist }) => {
 			<Head>
 				<title>VVS | {artist.name}</title>
 			</Head>
-			<h1 className='title'>{artist.name}</h1>
-      <p className="text">{artist.description}</p>
-      <button>
-        <Link href={artist.link} target="_blank">Discover</Link>
-      </button>
+			<h1 className='text-5xl font-bold text-center my-10'>{artist.name}</h1>
+			<p className='text'>{artist.description}</p>
+			<button className='px-8 py-3 text-base font-medium rounded-md text-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-300 hover:to-blue-400'>
+				<Link href={artist.link} target='_blank'>
+					Discover
+				</Link>
+			</button>
 		</section>
 	);
 };
