@@ -102,6 +102,10 @@ small {
 footer {
   margin-top: 50px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 form .container {
@@ -109,6 +113,10 @@ form .container {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+
+footer .container {
+
 }
 
 form input {
@@ -218,7 +226,6 @@ form input:focus {
   footer .container div {
     align-self: flex-end;
   }
-
 }
 
 @media screen and (max-width: 564px) {
@@ -235,7 +242,6 @@ form input:focus {
   }
 }
 
-
 @media screen and (max-width: 500px) {
   nav {
     padding: 0.2em 0.5em;
@@ -249,7 +255,6 @@ form input:focus {
 }
 
 @media screen and (max-width: 570px) {
-
   .contact #email,
   .contact #phone {
     font-size: 1.5rem;
