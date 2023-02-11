@@ -9,9 +9,9 @@ const Header = () => {
 			<Navbar.Brand href='/'>
 				<Image
 					src='/logo.png'
-					className='mr-3 h-9 sm:h-12'
+					className='mr-3 h-16'
 					alt='Flowbite Logo'
-					width={80}
+					width={100}
 					height={40}
 				/>
 			</Navbar.Brand>
@@ -38,4 +38,3 @@ const Header = () => {
 };
 
 export default Header;
-
