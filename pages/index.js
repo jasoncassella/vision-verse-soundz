@@ -10,7 +10,9 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<div>
-				<h1 className='text-3xl sm:text-5xl md:text-7xl font-bold text-center my-10'>Vision Verse Soundz</h1>
+				<h1 className='text-3xl sm:text-5xl md:text-7xl font-bold text-center my-10'>
+					Vision Verse Soundz
+				</h1>
 				<p className='text'>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat obcaecati
 					quas eum! Modi maiores repudiandae quos enim voluptatibus error, optio

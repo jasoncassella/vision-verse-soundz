@@ -1,4 +1,4 @@
-import artistBios from '../../data/artistBios';
+import artistBios from '../data/artistBios';
 import Head from 'next/head';
 import Link from 'next/link';
 
