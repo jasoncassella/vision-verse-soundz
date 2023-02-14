@@ -8,7 +8,6 @@ const Header = () => {
 
 	const artists = ['/lav-lew', '/cay-slatt', '/noso10', '/shan-x'];
 
-	console.log(asPath);
 	return (
 		<Navbar fluid={true} rounded={true} className='bg-inherit'>
 			<Navbar.Brand href='/'>
