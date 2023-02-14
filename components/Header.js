@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { Navbar, Dropdown } from 'flowbite-react';
 import artistBios from '../data/artistBios';
 import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
 
 const Header = () => {
 	const { asPath } = useRouter();
@@ -25,7 +24,6 @@ const Header = () => {
 			<Navbar.Collapse>
 				<Navbar.Link
 					href='/'
-					// style={{color: asPath === '/' ? '#3F83F8' : 'rgb(156, 163, 175)'}}
 					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
 						asPath === '/' ? 'text-blue-400' : 'text-gray-400'
 					}`}>
