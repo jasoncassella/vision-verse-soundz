@@ -28,38 +28,6 @@ section {
   margin: 0 auto;
 }
 
-/* nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  margin: 10px auto 30px;
-  padding: 0.2em 0.8em;
-} */
-
-/* nav a {
-  margin-left: 12px;
-  margin-right: 5px;
-  font-size: 1.3rem;
-  font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-} */
-
-/* nav a:hover {
-  color: #999999;
-} */
-
-/* nav #logo {
-  margin-right: auto;
-} */
-
-/* small {
-  display: block;
-  text-align: center;
-  padding: 30px 0;
-  color: rgb(100, 100, 100);
-} */
-
 .not-found {
   text-align: center;
 }
@@ -93,15 +61,10 @@ section {
   color: #999999;
 }
 
+footer span[data-testid="flowbite-footer-brand-span"] {
+  color: whitesmoke !important;
+}
 
-/* footer {
-  margin-top: 50px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 form .container {
   padding: 10px 10px;
@@ -209,7 +172,7 @@ form input:focus {
     width: 180px;
     height: 180px;
   }
-  
+
   /* footer .container {
     flex-direction: column;
   }
@@ -246,6 +209,7 @@ form input:focus {
 }
 
 @media screen and (max-width: 570px) {
+
   .contact #email,
   .contact #phone {
     font-size: 1.5rem;
