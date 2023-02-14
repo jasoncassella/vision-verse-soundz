@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer = () => {
 	const d = new Date();
@@ -8,7 +9,13 @@ const Footer = () => {
 			<div className='md:flex md:justify-between md:items-center '>
 				<div className='mb-6 md:mb-0'>
 					<Link href='/' className='flex items-center justify-center'>
-						<img src='/logo.png' className='h-20 mr-3' alt='FlowBite Logo' />
+						<Image
+							src='/logo.png'
+							className='h-20 mr-3'
+							width={130}
+							height={40}
+							alt='VVS Logo'
+						/>
 						{/* <span className='self-center text-2xl font-semibold whitespace-nowrap text-white'>
 							VisionVerse Soundz
 						</span> */}
