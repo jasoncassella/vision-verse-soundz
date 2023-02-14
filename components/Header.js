@@ -1,9 +1,15 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import { Navbar, Dropdown } from 'flowbite-react';
 import artistBios from '../data/artistBios';
+import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
 
 const Header = () => {
+	const { asPath } = useRouter();
+
+	const artists = ['/lav-lew', '/cay-slatt', '/noso10', '/shan-x'];
+
+	console.log(asPath);
 	return (
 		<Navbar fluid={true} rounded={true} className='bg-inherit'>
 			<Navbar.Brand href='/'>
@@ -17,10 +23,20 @@ const Header = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle />
 			<Navbar.Collapse>
-				<Navbar.Link href='/navbars' active={true}>
+				<Navbar.Link
+					href='/'
+					// style={{color: asPath === '/' ? '#3F83F8' : 'rgb(156, 163, 175)'}}
+					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
+						asPath === '/' ? 'text-blue-400' : 'text-gray-400'
+					}`}>
 					Home
 				</Navbar.Link>
-				<div className='block py-2 pr-4 pl-3 md:p-0 border-b border-gray-100  text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white'>
+				<div
+					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
+						artists.some(artist => artist === asPath)
+							? 'text-blue-400'
+							: 'text-gray-400'
+					}`}>
 					<Dropdown arrowIcon={true} inline={true} label='Artists'>
 						{artistBios.map(artist => (
 							<Dropdown.Item key={artistBios.indexOf(artist) + 1}>
@@ -29,9 +45,27 @@ const Header = () => {
 						))}
 					</Dropdown>
 				</div>
-				<Navbar.Link href='/about'>About</Navbar.Link>
-				<Navbar.Link href='/releases'>Releases</Navbar.Link>
-				<Navbar.Link href='/contact'>Contact</Navbar.Link>
+				<Navbar.Link
+					href='/about'
+					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
+						asPath === '/about' ? 'text-blue-400' : 'text-gray-400'
+					}`}>
+					About
+				</Navbar.Link>
+				<Navbar.Link
+					href='/releases'
+					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
+						asPath === '/releases' ? 'text-blue-400' : 'text-gray-400'
+					}`}>
+					Releases
+				</Navbar.Link>
+				<Navbar.Link
+					href='/contact'
+					className={`block py-2 pr-4 pl-3 md:p-0 border-b border-gray-700 hover:bg-gray-700 hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-white ${
+						asPath === '/contact' ? 'text-blue-400' : 'text-gray-400'
+					}`}>
+					Contact
+				</Navbar.Link>
 			</Navbar.Collapse>
 		</Navbar>
 	);

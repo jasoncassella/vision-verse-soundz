@@ -128,8 +128,7 @@ form input:focus {
   background: hsl(0, 0%, 30%);
 }
 
-.bio,
-.home {
+.bio {
   max-width: 1200px;
 }
 
