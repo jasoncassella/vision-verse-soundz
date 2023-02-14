@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Home() {
 	return (
-		<section className='text-center my-6'>
+		<section className='text-center my-6 max-w-screen-2xl'>
 			<Head>
 				<title>Vision Verse Soundz</title>
 				<meta name='description' content='Management Company' />
