@@ -5,7 +5,7 @@ const Footer = () => {
 	const year = d.getFullYear();
 	return (
 		<footer className='p-4 bg-inherit sm:p-6 dark:bg-gray-900'>
-			<div className='md:flex md:justify-between'>
+			<div className='md:flex md:justify-between md:items-center '>
 				<div className='mb-6 md:mb-0'>
 					<Link href='/' className='flex items-center justify-center'>
 						<img src='/logo.png' className='h-20 mr-3' alt='FlowBite Logo' />
